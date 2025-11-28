@@ -206,7 +206,7 @@ int main()
         int mode;
         if (min -> label == current -> label)
         {
-            mode = findMode(b, max -> macarons + 1);
+            mode = findNode(b, max -> macarons + 1);
             if (mode == -1)
             {
                 target = max;
@@ -233,7 +233,7 @@ int main()
                 }
                 checknode = checknode -> next;
             }
-            mode = findMode(b, current -> macarons);
+            mode = findNode(b, current -> macarons);
             if (mode == -1)
             {
                 target = Max;
