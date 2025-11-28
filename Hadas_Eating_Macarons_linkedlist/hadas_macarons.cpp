@@ -42,7 +42,7 @@ void reverse(Node *x, Node *z)
     x = z;
     z = t;
 }
-int findMode(int arr[], int max)
+int findNode(int arr[], int max)
 {
     int MAX_SIZE = max;
     int max1 = 0;
